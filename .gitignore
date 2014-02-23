@@ -13,6 +13,8 @@
 
 # Executables
 *.exe
+*.dir
+CMakeCache.txt
 *.out
 *.app
 
@@ -22,3 +24,16 @@
 build
 bin
 
+# VC stuff
+*.vcxproj
+*.filter
+*.user
+*.cmake
+*.exp
+Win32
+*.sdf
+*.sln
+*.suo
+*.png
+CMakeFiles
+*.filters
