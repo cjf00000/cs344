@@ -64,6 +64,7 @@ void preProcess(uchar4 **inputImage, unsigned char **greyImage,
 void postProcess(const std::string& output_file, unsigned char* data_ptr) {
   cv::Mat output(numRows(), numCols(), CV_8UC1, (void*)data_ptr);
 
+  std::cout << output_file << std::endl;
   //output the image
   cv::imwrite(output_file.c_str(), output);
 }
